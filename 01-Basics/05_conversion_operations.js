@@ -33,3 +33,18 @@ let stringNum = String(aNumber)
 
 // console.log(stringNum)
 // console.log(typeof (stringNum))
+
+
+
+
+
+
+// ******** OPERATIONS *************//
+
+let val = 34
+
+let negVal = -val
+
+
+// console.log(negVal)
+
