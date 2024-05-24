@@ -93,4 +93,4 @@ function returnSecondVal (getArray) {
 }
 
 
-console.log(returnSecondVal(newArr))
+console.log(returnSecondVal(newArr()))
