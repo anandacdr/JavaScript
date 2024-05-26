@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: black; color:whitesmoke; ">
+    <h2>DOM</h2>
+</body>
+
+<script>
+    const div = document.createElement('div')
+    console.log(div)
+    // const h1 = document.createElement('h1')
+    // console.log(h1)
+
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    div.setAttribute("tilte", "generated title")
+
+    div.style.backgroundColor = "crimson"
+
+    div.style.padding = "34px"
+
+    // div.innerText = "JavaScript"
+
+    const addText = document.createTextNode("JavaScript")
+
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+
+
+</script>
+</html>
