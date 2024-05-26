@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a[aria-current="page"] {
+    background-color: #555;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.button-box {
+    /* display: flex; */
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+    /* width: fit-content; */
+    margin: 20px auto;
+}
+
+
+.button {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#grey {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+#white {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#crimson {
+    background-color: crimson;
+    border: 1px solid black;
+
+}
+
+#yellow {
+    background-color: yellow;
+    border: 1px solid black;
+
+}
