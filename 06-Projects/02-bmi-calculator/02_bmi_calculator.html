@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="02_styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" aria-current="page">Home</a>
+        <a href="https://www.github.com/anandacdr" target="_blank">Github</a>
+    </nav>
+
+
+    <div class="bmi-calculator">
+        <h2>BMI Calculator</h2>
+        <form>
+        <div class="input">
+            <label>Height in CM: </label>
+            <input class="unit" id="height" type="text">
+            <br>
+            <label>Weight in KG: </label>
+            <input class="unit" id="weight" type="text">
+        </div>
+
+
+        <div class="calculate">
+            <button class="btn">Calculate</button>
+        </div>
+
+        <div id="results"></div>
+
+        <div class="weight-guide" id="bmiGuide">
+            <h2>BMI Weight Guide</h2>
+    
+            <p>Under Weight = Less than 18.6</p>
+            <p>Normal Range = 18.6 and 24.9</p>
+            <p>Overweight = Greater than 24.9</p>
+        </div>
+    </form>
+    </div>
+<script src="02_script.js"></script>
+</body>
+</html>
