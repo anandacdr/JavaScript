@@ -22,7 +22,7 @@ form.addEventListener('submit', function(e){
         results.innerHTML = `Please, Give a valid weight ${weight}.`
     } else{
        const bmi =  (weight / ((height*height)/10000)).toFixed(2);
-
+l                                                                                   
        let classification = '';
 
        if (bmi < 18.6){
@@ -39,7 +39,5 @@ form.addEventListener('submit', function(e){
        results.innerHTML = ` <strong>BMI Level is  <span>${bmi}</span> (${classification})</strong>`;
     }
 
-    // if (bmi === 18.6) {
-    //     bmiGuide.innerHTML = `Bmi is less than 18.6`
-    // }
+   
 });
