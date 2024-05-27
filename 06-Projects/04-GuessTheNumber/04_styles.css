@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: dimgrey;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a[aria-current="page"] {
+    background-color: #555;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+h2 {
+    text-align: center;
+    font-size:xx-large;
+
+}
+
+#gameBox{
+    display: absolute;
+    margin: 34px auto;
+    padding: 34px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: burlywood;
+
+}
+
+.title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.guess {
+    display: absolute;
+    margin: 34px auto;
+    padding: 34px;
+}
+
+input {
+    font-size: 20px;
+}
+
+.para{
+    font-size: 24px;
+}

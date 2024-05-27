@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="04_styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" aria-current="page">Home</a>
+        <a href="https://www.github.com/anandacdr" target="_blank">Github</a>
+    </nav>
+
+
+    <h2>Number Guessing Game by Ananda</h2>
+
+    <div class="gameBox" id="gameBox">
+        <h3>Game Rules</h3>
+        <p>Try and guess a random number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+
+        
+        <form class="form">
+            
+            <!-- <h1>Guess a Number</h1>
+             -->
+             <label for="guessField" id="guess" class="title">Guess a Number</label>
+            
+             <br>
+             <br>
+            <input type="text" id="guessField" class="guessField">
+            <br>
+            <br>
+            <input type="submit" id="subt" value="Submit Guess">
+        </form>
+        
+        <div class="resultPara">
+            <p>Previous Guesses: <span class="para guesses"></span></p>
+            <p>Guesses Remaining: <span class="para lastResult"></span></p>
+            <p class="lowOrHigh"></p>
+        </div>
+    </div>
+<script src="04_script.js"></script>
+</body>
+</html>
