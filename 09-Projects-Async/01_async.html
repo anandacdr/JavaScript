@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+
+    <style>
+        *{
+            text-decoration: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color:hwb(219 39% 7% / 0.758)
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid black;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a[aria-current="page"] {
+            background-color: #555;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" aria-current="page">Home</a>
+        <a href="https://www.github.com/anandacdr" target="_blank">Github</a>
+    </nav>
+    <h2>Async Code</h2>
+
+    <input type="button" id="stop" value="stop">
+
+
+
+
+    <script src="01_async.js"></script>
+</body>
+</html>

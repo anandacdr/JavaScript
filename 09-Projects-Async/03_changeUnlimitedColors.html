@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE UNLIMITED COLOR</title>
+    <style>
+        *{
+            text-decoration: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            
+            
+           /* background-color:hwb(219 39% 7% / 0.758)*/
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid black;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a[aria-current="page"] {
+            background-color: #555;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            font-style: oblique;
+        }
+        
+        input {
+            font-size: 2rem;
+            margin: 34px auto;
+            padding: 24px 20px;
+            background-color:cadetblue;
+            border: 2px solid rebeccapurple;
+            border-radius: 10px;
+            
+        }
+
+        input:hover{
+            background-color: brown;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" aria-current="page">Home</a>
+        <a href="https://www.github.com/anandacdr" target="_blank">Github</a>
+    </nav>
+
+    <h2>Change the BG every second</h2>
+
+    <input type="button" value="start" id="start">
+    <input type="button" value="stop" id="stop">
+
+
+
+    <script src="03_changeColors.js"></script>
+</body>
+</html>
