@@ -48,6 +48,7 @@
         .picture{
             text-align: center;
             margin: 34px auto;
+            cursor: pointer;
         }
         .picture img {
             height: 300px;
@@ -55,7 +56,10 @@
             border-radius: 50%;
             
         }
-        
+        .pict {
+            border: 2px solid gold;
+            border-radius: 8px;
+        }
     </style>
 </head>
 <body>
@@ -74,7 +78,7 @@
         <img src="https://avatars.githubusercontent.com/u/67789486?v=4" alt="Ananda's Picture">
         <p><strong>Ananda's Profile</strong></p>
 
-        <div id="profile"></div>
+        <button id="profile" class="pict"></button>
         <!-- <div id="stop"></div> -->
     </div>
 <script src="api_request.js"></script>
