@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Request</title>
+
+    <style>
+        *{
+            text-decoration: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color:hwb(219 39% 7% / 0.758)
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid black;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        
+        nav a[aria-current="page"] {
+            background-color: #555;
+        }
+        
+        nav a:hover {
+            background-color: #555;
+        }
+        h2 {
+            font-size: 2rem;
+            font-style: oblique;
+            text-transform: uppercase;
+            text-align: center;
+        }
+        .picture{
+            text-align: center;
+            margin: 34px auto;
+        }
+        .picture img {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#" aria-current="page">Home</a>
+        <a href="https://www.github.com/anandacdr" target="_blank">Github</a>
+    </nav>
+
+    <h2>API Request and V8 Engine</h2>
+
+
+    <!-- Assignment: Photo -> When we click on photo, it will give total followers -->
+
+
+    <div class="picture" id="picture">
+        <img src="https://avatars.githubusercontent.com/u/67789486?v=4" alt="Ananda's Picture">
+        <p><strong>Ananda's Profile</strong></p>
+
+        <div id="profile"></div>
+        <!-- <div id="stop"></div> -->
+    </div>
+<script src="api_request.js"></script>
+</body>
+</html>
