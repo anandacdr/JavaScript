@@ -4,12 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Closure in js</title>
+
+    <style>
+        body {
+            background-color: cadetblue;
+
+        }
+
+    </style>
   </head>
   <body>
 
     <h2>Closure in JavaScript</h2>
 
 
-    <script src="01_closure.js"></script>
+    <button id="crimson">
+        Crimson
+    </button>
+    <button id="green">
+        Green
+    </button>
+
+    <script>
+        <!-- document.getElementById("crimson").onclick = function(){
+            document.body.style.backgroundColor = "blue"
+        }
+
+        document.getElementById("green").onclick = function(){
+            document.body.style.backgroundColor = "crimson"
+        } -->
+
+
+
+        // 
+        function clickHandler(color){
+            // document.body.style.backgroundColor = `${color}`
+
+            // make function
+            return function(){
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById('crimson').onclick  = clickHandler("blue")
+
+        document.getElementById('green').onclick  = clickHandler("orange")
+
+
+
+    </script>
+    <!-- <script src="01_closure.js"></script> -->
   </body>
 </html>
