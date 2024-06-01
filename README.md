@@ -32,3 +32,6 @@ Apply your knowledge of asynchronous JavaScript with projects designed to solidi
 ---
 
 Each section is designed to build upon the previous one, ensuring a comprehensive understanding of JavaScript. Happy coding!
+
+
+`I have followed the, Hitesh Choudhary YT channel named chaiaurcode to learn javascript.`
